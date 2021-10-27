@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    margin: 20px 100px;
+
+} 
+
+.item.active {
+    position: relative;
+}
+
+.item.active img {
+    width: 550px;
+    height: 300px;
+}
+
+.thumbs {
+    
+}
+
+.text {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    transform: translate(-50% 0);
+}
+
+.thumb img {
+    display: flex;
+    width: 150px;
+    height:60px;
+    opacity: 0.5;
+    border:1px solid black;
+}
+
+.thumb.active img{
+    border:1px solid white;
+    opacity: 1;
+
+}
